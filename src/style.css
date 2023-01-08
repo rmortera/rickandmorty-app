@@ -34,6 +34,10 @@ body {
   text-align: center;
 }
 
+.input {
+  padding: 10px;
+}
+
 .image img {
   width: 600px;
 }
