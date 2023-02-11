@@ -12,7 +12,24 @@ const ResidentsCards = ({ residentsUrl }) => {
 
   return (
     <div className="resident-card">
-      <div className="status">{resident.status} </div>
+      <div className="status">
+        {resident.status === "Alive" ? (
+          <div>
+            <div className="statusCircleAlive"></div>
+            <p>{resident.status}</p>
+          </div>
+        ) : resident.status === "Dead" ? (
+          <div>
+            <div className="statusCircleDead"></div>
+            <p>{resident.status}</p>
+          </div>
+        ) : (
+          <div>
+            <div className="statusCircleUnknown"></div>
+            <p>{resident.status}</p>
+          </div>
+        )}{" "}
+      </div>
       <div>
         {" "}
         <img src={resident.image} className="image-resident" />

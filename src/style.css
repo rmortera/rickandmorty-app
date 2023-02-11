@@ -109,6 +109,33 @@ button:focus-visible {
   background-color: #292929d5;
 }
 
+.statusCircleAlive {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  background-color: green;
+}
+
+.status p {
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
+
+.statusCircleDead {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  background-color: red;
+}
+.statusCircleUnknown {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  background-color: gray;
+}
+
 .resident-info span {
   color: #9e9e9e;
   font-size: small;
