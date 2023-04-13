@@ -21,7 +21,7 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #1c353f;
+  background-color: #111111;
 }
 
 .card {
@@ -105,7 +105,7 @@ button:focus-visible {
   position: absolute;
   margin: 25px auto;
   border-radius: 0 6px 6px 0;
-  padding: 2px 30px 2px 5px;
+  padding: 8px 30px 2px 5px;
   background-color: #292929d5;
 }
 
@@ -114,6 +114,16 @@ button:focus-visible {
   height: 10px;
   border-radius: 15px;
   background-color: green;
+}
+
+.status-name {
+  float: right;
+  margin-left: 5px;
+  margin-top: -6px;
+}
+
+.circle {
+  float: left;
 }
 
 .status p {

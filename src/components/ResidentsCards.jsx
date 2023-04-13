@@ -15,18 +15,18 @@ const ResidentsCards = ({ residentsUrl }) => {
       <div className="status">
         {resident.status === "Alive" ? (
           <div>
-            <div className="statusCircleAlive"></div>
-            <p>{resident.status}</p>
+            <div className="statusCircleAlive circle"></div>
+            <p className="status-name">{resident.status}</p>
           </div>
         ) : resident.status === "Dead" ? (
           <div>
-            <div className="statusCircleDead"></div>
-            <p>{resident.status}</p>
+            <div className="statusCircleDead circle"></div>
+            <p className="status-name">{resident.status}</p>
           </div>
         ) : (
           <div>
-            <div className="statusCircleUnknown"></div>
-            <p>{resident.status}</p>
+            <div className="statusCircleUnknown circle"></div>
+            <p className="status-name">{resident.status}</p>
           </div>
         )}{" "}
       </div>
