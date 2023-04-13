@@ -103,7 +103,7 @@ button:focus-visible {
 
 .status {
   position: absolute;
-  margin: 25px auto;
+  margin: 20px auto;
   border-radius: 0 6px 6px 0;
   padding: 8px 30px 2px 5px;
   background-color: #292929d5;
